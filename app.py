@@ -29,7 +29,7 @@ model.add(Dropout(0.5))
 model.add(Dense(2, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 model.load_weights('static/model.h5')
-
+#end of  model
 
 COUNT = 0
 app = Flask(__name__)
